@@ -1,0 +1,142 @@
+:root{
+  --color-blue:rgb(13, 118, 224);
+  --color-orange:#ff5e11;
+  --card-shadow:rgba(45, 44, 44, 0.722)
+}
+body{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0;
+  padding-bottom: 40px; /* space for fixed bar */
+}
+.wonder-me-head{
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+  color: rgb(13, 118, 224);
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.remember-title {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-bottom: 0;
+  text-align: center;
+  color: var(--color-orange);
+}
+.remember-container{
+  display: grid;
+  grid-template-rows: 50px 580px 50px;
+  gap: 20px;
+  place-content: center;
+  margin-bottom: 30px;
+}
+.remember-obj-container{
+  display:grid;
+  grid-template-columns: 180px 180px 180px;
+  grid-template-rows: 180px 180px 180px;
+  gap:20px;
+  justify-content: center;
+}
+.remember-obj{
+  height: 180px;
+  width: 180px;
+  place-content: center;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px 0.1px #0000001f;
+  overflow: clip;
+}
+.remember-container button{
+  justify-self: center;
+  width: 180px;
+  height: 46px;
+  border: none;
+  border-radius: 23px;
+  background-color: var(--color-blue);
+  color: white;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.remember-container button:hover {
+  justify-self: center;
+  width: 180px;
+  height: 46px;
+  border: none;
+  border-radius: 23px;
+  background-color: var(--color-orange);
+  color: white;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+.all-cards-container{
+  display: grid;
+  grid-template-columns: 180px 180px 180px 180px 180px 180px;
+  grid-template-rows: 180px 180px 180px 180px;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.all-card-button{
+  height: 180px;
+  width: 180px;
+  place-content: center;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px 0.1px #0000001f;
+  justify-content: center;
+  border: none;
+  background-color: white;
+  overflow: clip;
+}
+.all-card-button:hover{
+  height: 180px;
+  width: 180px;
+  place-content: center;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px 0.1px #0000001f;
+  justify-content: center;
+  border: 2px solid var(--color-blue);
+  background-color: white;
+}
+.find-title{
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--color-orange);
+}
+.score-board{
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  background-color: var(--color-orange);
+  position: fixed;
+  top: 10;
+  right: 10;
+  text-align: center;
+}
+img {
+  height:180px;
+  object-fit: contain;
+}
+.all-card-button img{
+  position:relative;
+  right: 6px;
+  top: -1px;
+}
