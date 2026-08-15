@@ -1,7 +1,7 @@
 Wonder me is a brain memory test game built using HTML, CSS and Java Script. This has helped me understand the interdependence of HTML, CSS and Java Script on each other to make an interactive interface.
 <br>
 <br>
-<a herf="https://avichalmaurya.github.io/Wonder-me-a-Memory-Game-/"> Visit the site </a><br>
+<a href="https://avichalmaurya.github.io/Wonder-me-a-Memory-Game-/"> Visit the site </a><br>
 Here is an overview of the interface.<br>
 <img width="1837" height="705" alt="img-code-wonder me" src="https://github.com/user-attachments/assets/a92bac15-7c0e-4542-a518-c5bc1d5aea81" />
 <img width="1763" height="1004" alt="wonder me 1" src="https://github.com/user-attachments/assets/9f7a612c-3fc3-43d6-9867-c5c46e76aaa3" />
